@@ -88,7 +88,7 @@ const Navbar = ({ setOpenCart }) => {
             className="w-full pl-10 pr-4 py-3 text-sm sm:text-base lg:text-lg border border-red-600 rounded-2xl focus:outline-none focus:ring-2 focus:ring-red-500"
           />
           <button
-            className="  rounded-xl hover:bg-red-500 text-red-600 hover:text-white font-semibold transition-colors cursor-pointer text-[0.9vw]  duration-800"
+            className="  rounded-xl hover:bg-red-500 text-red-600 hover:text-white font-semibold transition-colors cursor-pointer text-[3.5vw] sm:text-[0.9vw] md:text-[0.9vw] lg:text-[0.9vw]  duration-800"
             onClick={getLocation}
           >
             Use Current Location
