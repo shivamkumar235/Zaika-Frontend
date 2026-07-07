@@ -1,0 +1,65 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Work+Sans:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  --bg: #0e0d0c;
+  --bg-panel: #161412;
+  --graphite: #2e2b28;
+  --graphite-line: rgba(236, 231, 220, 0.14);
+  --paper: #ece7dc;
+  --paper-dim: #a79f8f;
+  --gold: #b6884f;
+  --red: --black: #000, --gold-soft: rgba(182, 136, 79, 0.16);
+}
+
+#welcome {
+  font-family: "Fraunces", serif;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+::selection {
+  background: var(--bg);
+  color: var(--gold);
+}
+
+#Zaika {
+  /* background-color: yellow */
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+#cotegorytrack::-webkit-scrollbar {
+  display: none;
+}
+#cotegorytrack {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#cotegoryname {
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  #cotegoryname {
+    font-size: 17px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  #cotegoryname {
+    font-size: 13px;
+  }
+}
+#welcome {
+  font-family: "DM Serif Display", serif;
+  font-size: 70px;
+}
