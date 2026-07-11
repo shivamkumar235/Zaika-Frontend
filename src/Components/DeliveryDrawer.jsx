@@ -33,7 +33,7 @@ const DeliveryDrawer = ({ open, setOpen }) => {
     };
     console.log(orderData);
 
-    const response = await fetch("http://localhost:3000/order", {
+    const response = await fetch(`${import.meta.env.VITE_API_URL}/order`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
