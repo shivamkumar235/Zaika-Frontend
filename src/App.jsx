@@ -4,10 +4,12 @@ import Home from "./pages/Home";
 import Kabab from "./pages/CotegoryPages/Kabab";
 import Navbar from "./Components/Navbar";
 import CartDrawer from "./Components/CartDrawer";
+import DeliveryDrawer from "./Components/DeliveryDrawer";
 // import Footer from "./Components/Footer";
 
 const App = () => {
   const [openCart, setOpenCart] = useState(false);
+  const [openDelivery, setOpenDelivery] = useState(false);
 
   return (
     <>
@@ -17,8 +19,13 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/:category" element={<Kabab />} />
       </Routes>
+      <CartDrawer
+        open={openCart}
+        setOpen={setOpenCart}
+        setOpenDelivery={setOpenDelivery}
+      />
 
-      <CartDrawer open={openCart} setOpen={setOpenCart} />
+      <DeliveryDrawer open={openDelivery} setOpen={setOpenDelivery} />
     </>
   );
 };

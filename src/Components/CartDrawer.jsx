@@ -2,8 +2,8 @@ import { X } from "lucide-react";
 import { useCart } from "../context/CartContext";
 import CartItems from "./CartItems";
 
-const CartDrawer = ({ open, setOpen }) => {
-  const { total } = useCart();
+const CartDrawer = ({ open, setOpen, setOpenDelivery }) => {
+  const { total, cart } = useCart();
 
   return (
     <>
@@ -31,31 +31,41 @@ const CartDrawer = ({ open, setOpen }) => {
 
         {/* Cart Items */}
         <div className="h-[68vh]  overflow-y-auto p-5">
-          {/* {cart.map((item) => (
-            <div key={item.id}> */}
-          <CartItems />
-          {/* </div> */}
-          {/* ))} */}
+          {cart.length < 1 ? (
+            <p className="text-md text-center opacity-50">
+              Please Select You Febrouit Food
+            </p>
+          ) : (
+            <CartItems />
+          )}
         </div>
 
         {/* Footer */}
         <div className="absolute bottom-0 w-full border-t p-5 bg-white">
-          <div className="flex justify-between text-lg">
-            <p>Subtotal</p>
-            <p>₹840</p>
-          </div>
-
-          <div className="flex justify-between text-lg">
-            <p>Delivery</p>
-            <p>₹40</p>
-          </div>
-
-          <div className="flex justify-between mt-3 text-3xl font-bold">
+          <div
+            className={
+              cart.length < 1
+                ? "flex justify-between mt-3 text-3xl opacity-50 font-bold"
+                : "flex justify-between mt-3 text-3xl font-bold"
+            }
+          >
             <p>Total</p>
             <p>{total}</p>
           </div>
 
-          <button className="mt-5 w-full bg-red-600 text-white py-3 rounded-xl text-xl font-semibold">
+          <button
+            onClick={() => {
+              setOpen(false);
+              setOpenDelivery(true);
+
+              // console.log("hai");
+            }}
+            className={
+              cart.length < 1
+                ? "mt-5 w-full bg-red-600 text-white py-3 rounded-xl text-xl font-semibold opacity-50"
+                : "mt-5 w-full bg-red-600 text-white py-3 rounded-xl text-xl font-semibold"
+            }
+          >
             Checkout →
           </button>
         </div>

@@ -12,11 +12,11 @@ import dessert from "../assets/dessert-bg.png";
 import Beverages from "../assets/Beverages_2bg.png";
 import Egggravy from "../assets/EggGravy-bg.png";
 import Fishgravy from "../assets/fishgravy-bg.png";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 const CotegoryScroll = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   return (
     <div>
@@ -36,7 +36,7 @@ const CotegoryScroll = () => {
                 </Link>
                 <h2
                   id="cotegoryname"
-                  onClick={navigate("/Kabab")}
+                  // onClick={navigate("/Kabab")}
                   className=" font-semibold text-center text-gray-900 mt-2"
                 >
                   Kabab
@@ -230,7 +230,7 @@ const CotegoryScroll = () => {
                 <Link to="/Beverages">
                   <img
                     id="cotegoryimg"
-                    className=" h-16 sm:h-30 md:h-30 lg:h-30 w-16 sm:w-30 md:w-30 lg:w-30 w-22 flex items-center transition-transform  duration-600  hover:rotate-3 cursor-pointer hover:scale-105"
+                    className=" h-16 sm:h-30 md:h-30 lg:h-30 w-14 sm:w-30 md:w-30 lg:w-25  flex items-center transition-transform  duration-600  hover:rotate-3 cursor-pointer hover:scale-105"
                     src={Beverages}
                     alt=""
                   />

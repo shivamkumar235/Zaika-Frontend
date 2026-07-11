@@ -8,7 +8,7 @@ const Hero = () => {
       {" "}
       <div
         id="gerobg"
-        className="w-[96%] h-[120vw] sm:h-[90vw] md:h-[55vw] lg:h-[30vw] bg-red-600 rounded-2xl px-5 sm:px-8 md:px-14 lg:px-20 flex flex-col lg:flex-row items-center justify-between overflow-hidden"
+        className="w-[96%] h-[90vw] sm:h-[90vw] md:h-[55vw] lg:h-[22vw] mt-5 bg-red-600 rounded-2xl px-5 sm:px-8 md:px-14 lg:px-20 flex flex-col lg:flex-row items-center justify-between overflow-hidden"
       >
         {/* Left */}
         <div className="w-full lg:w-[50%] mt-8 lg:mt-0">
@@ -32,7 +32,7 @@ const Hero = () => {
 
           <h1
             style={{ fontFamily: "Poppins, sans-serif" }}
-            className="pl-1 text-sm sm:text-base md:text-lg lg:text-[18px] text-gray-200 mt-4 leading-7"
+            className="pl-1 text-[3vw] sm:text-base md:text-lg lg:text-[18px] text-gray-200  lg:mt-4 leading-7"
           >
             Order to Zaika for get delicious food, Like - Mughlai, Tandoor,
             Chinese and Indian from cooks near you. Add what you like, check out
@@ -41,17 +41,17 @@ const Hero = () => {
         </div>
 
         {/* Right */}
-        <div className="relative w-full lg:w-[50%] flex justify-center items-center mt-5 lg:mt-0">
+        <div className="relative w-full lg:w-[50%]  flex justify-center items-center mt-5 lg:mt-0">
           <img
             src={foodstick}
             alt=""
-            className="absolute w-[18vw] sm:w-[14vw] md:w-[11vw] lg:w-[8vw] top-0 right-[8%]"
+            className="absolute w-[50vw]  sm:w-[14vw]  sm:mt-20 md:mt-20 lg:mt-20 md:w-[11vw] lg:w-[20vw] top-0 right-15 lg:right-[8%] leading-6"
           />
 
           <img
             src={heroplate}
             alt=""
-            className="w-[70vw] sm:w-[55vw] md:w-[42vw] lg:w-[25vw] hover:scale-105 transition-all duration-500"
+            className="w-[50vw] sm:w-[55vw] md:w-[42vw] lg:w-[25vw]  sm:mt-40 md:mt-40 lg:mt-40 ml-50 lg:ml-120 hover:scale-105 transition-all duration-500"
           />
         </div>
       </div>

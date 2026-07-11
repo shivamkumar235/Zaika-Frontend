@@ -45,7 +45,7 @@ const Kabab = () => {
 
     Fish: [
       {
-        id: 1,
+        id: 5,
         dishName: "Fish Tikka (4 Pcs)",
         price: 454,
         image: "/images/fish-tikka.png",
@@ -53,7 +53,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 2,
+        id: 6,
         dishName: "Fish Achari Tikka (4 Pcs)",
         price: 454,
         image: "/images/fish-achari-tikka.png",
@@ -61,7 +61,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 3,
+        id: 7,
         dishName: "Fish Ajwain Tikka (4 Pcs)",
         price: 454,
         image: "/images/fish-ajwain-tikka.png",
@@ -69,7 +69,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 4,
+        id: 8,
         dishName: "Fish Amritsari Tikka (4 Pcs)",
         price: 454,
         image: "/images/fish-amritsari-tikka.png",
@@ -77,7 +77,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 5,
+        id: 9,
         dishName: "Tandoori Prawn (6 Pcs)",
         price: 454,
         image: "/images/tandoori-prawn.png",
@@ -85,7 +85,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 6,
+        id: 10,
         dishName: "Malai Prawn Tikka (6 Pcs)",
         price: 475,
         image: "/images/malai-prawn-tikka.png",
@@ -93,7 +93,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 7,
+        id: 11,
         dishName: "Prawn Garlic Kebab (6 Pcs)",
         price: 454,
         image: "/images/prawn-garlic-kebab.png",
@@ -101,7 +101,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 8,
+        id: 12,
         dishName: "Tandoori Pomfret (1 Pc)",
         price: 327,
         image: "/images/tandoori-pomfret.png",
@@ -112,7 +112,7 @@ const Kabab = () => {
 
     Kabab: [
       {
-        id: 1,
+        id: 13,
         dishName: "Dawat-e-Hind Spl. Kebab (6 Pcs)",
         price: 332,
         image: "/images/dawat-e-hind-kebab.png",
@@ -120,7 +120,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 2,
+        id: 14,
         dishName: "Chelo Kebab",
         price: 377,
         image: "/images/chelo-kebab.png",
@@ -128,7 +128,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 3,
+        id: 15,
         dishName: "Banjara Kebab",
         price: 330,
         image: "/images/banjara-kebab.png",
@@ -136,7 +136,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 4,
+        id: 16,
         dishName: "Murgh Lazeez Tikka (6 Pcs)",
         price: 324,
         image: "/images/murgh-lazeez-tikka.png",
@@ -144,7 +144,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 5,
+        id: 17,
         dishName: "Afghani Tandoori Kebab (F/H)",
         price: 417,
         image: "/images/afghani-tandoori-kebab.png",
@@ -152,7 +152,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 6,
+        id: 18,
         dishName: "Tandoori Chicken (F/H)",
         price: 396,
         image: "/images/tandoori-chicken.png",
@@ -160,7 +160,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 7,
+        id: 19,
         dishName: "Chicken Tangri Kebab (F/H)",
         price: 332,
         image: "/images/chicken-tangri-kebab.png",
@@ -168,7 +168,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 8,
+        id: 20,
         dishName: "Wings Chatpata Kebab (10 Pcs)",
         price: 343,
         image: "/images/wings-chatpata-kebab.png",
@@ -176,7 +176,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 9,
+        id: 21,
         dishName: "Chicken Tikka Kebab (6 Pcs)",
         price: 248,
         image: "/images/chicken-tikka-kebab.png",
@@ -184,7 +184,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 10,
+        id: 22,
         dishName: "Chicken Reshmi Kebab (6 Pcs)",
         price: 269,
         image: "/images/chicken-reshmi-kebab.png",
@@ -192,7 +192,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 11,
+        id: 23,
         dishName: "Chicken Hariyali Kebab (6 Pcs)",
         price: 248,
         image: "/images/chicken-hariyali-kebab.png",
@@ -200,7 +200,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 12,
+        id: 24,
         dishName: "Chicken Malai Kebab (6 Pcs)",
         price: 280,
         image: "/images/chicken-malai-kebab.png",
@@ -208,7 +208,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 13,
+        id: 25,
         dishName: "Chicken Kali Mirch Kebab (6 Pcs)",
         price: 248,
         image: "/images/chicken-kali-mirch-kebab.png",
@@ -216,7 +216,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 14,
+        id: 26,
         dishName: "Chicken Cheese Kebab (6 Pcs)",
         price: 322,
         image: "/images/chicken-cheese-kebab.png",
@@ -224,7 +224,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 15,
+        id: 27,
         dishName: "Chicken Alishan Kebab (6 Pcs)",
         price: 290,
         image: "/images/chicken-alishan-kebab.png",
@@ -232,7 +232,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 16,
+        id: 28,
         dishName: "Chicken Afghani Kebab (6 Pcs)",
         price: 280,
         image: "/images/chicken-afghani-kebab.png",
@@ -240,7 +240,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 17,
+        id: 29,
         dishName: "Chicken Jafrani Kebab (6 Pcs)",
         price: 311,
         image: "/images/chicken-jafrani-kebab.png",
@@ -248,7 +248,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 18,
+        id: 30,
         dishName: "Chicken Lassuni Kebab (6 Pcs)",
         price: 258,
         image: "/images/chicken-lassuni-kebab.png",
@@ -256,7 +256,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 19,
+        id: 31,
         dishName: "Chicken Angara Kebab (6 Pcs)",
         price: 280,
         image: "/images/chicken-angara-kebab.png",
@@ -264,7 +264,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 20,
+        id: 32,
         dishName: "Chicken Seekh Kebab (6 Pcs)",
         price: 248,
         image: "/images/chicken-seekh-kebab.png",
@@ -272,7 +272,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 21,
+        id: 33,
         dishName: "Chicken Raunaki Seekh Kebab (6 Pcs)",
         price: 258,
         image: "/images/chicken-raunaki-seekh-kebab.png",
@@ -280,7 +280,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 22,
+        id: 34,
         dishName: "Chicken Boti Kebab (6 Pcs)",
         price: 264,
         image: "/images/chicken-boti-kebab.png",
@@ -446,7 +446,7 @@ const Kabab = () => {
 
     Vegetable: [
       {
-        id: 1,
+        id: 35,
         dishName: "Paneer Tikka",
         price: 243,
         image: "/images/paneer-tikka.png",
@@ -454,7 +454,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 2,
+        id: 36,
         dishName: "Hariyali Paneer Tikka",
         price: 243,
         image: "/images/hariyali-paneer-tikka.png",
@@ -462,7 +462,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 3,
+        id: 37,
         dishName: "Malai Paneer Tikka",
         price: 253,
         image: "/images/malai-paneer-tikka.png",
@@ -470,7 +470,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 4,
+        id: 38,
         dishName: "Makhmali Paneer Tikka",
         price: 317,
         image: "/images/makhmali-paneer-tikka.png",
@@ -478,7 +478,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 5,
+        id: 39,
         dishName: "Paneer Seekh Kebab",
         price: 243,
         image: "/images/paneer-seekh-kebab.png",
@@ -486,7 +486,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 6,
+        id: 40,
         dishName: "Veg. Seekh Kebab",
         price: 211,
         image: "/images/veg-seekh-kebab.png",
@@ -494,7 +494,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 7,
+        id: 41,
         dishName: "Paneer Butter Masala",
         price: 200,
         image: "/images/paneer-butter-masala.png",
@@ -502,7 +502,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 8,
+        id: 42,
         dishName: "Kadai Paneer",
         price: 200,
         image: "/images/kadai-paneer.png",
@@ -510,7 +510,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 9,
+        id: 43,
         dishName: "Shahi Paneer",
         price: 200,
         image: "/images/shahi-paneer.png",
@@ -518,7 +518,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 10,
+        id: 44,
         dishName: "Palak Paneer",
         price: 200,
         image: "/images/palak-paneer.png",
@@ -526,7 +526,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 11,
+        id: 45,
         dishName: "Paneer Do-Piyaza",
         price: 200,
         image: "/images/paneer-do-piyaza.png",
@@ -534,7 +534,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 12,
+        id: 46,
         dishName: "Methi Malai Paneer",
         price: 200,
         image: "/images/methi-malai-paneer.png",
@@ -542,7 +542,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 13,
+        id: 47,
         dishName: "Paneer Tikka Masala",
         price: 295,
         image: "/images/paneer-tikka-masala.png",
@@ -550,7 +550,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 14,
+        id: 48,
         dishName: "Mix Veg",
         price: 148,
         image: "/images/mix-veg.png",
@@ -558,7 +558,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 15,
+        id: 49,
         dishName: "Kadai Veg",
         price: 169,
         image: "/images/kadai-veg.png",
@@ -566,7 +566,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 16,
+        id: 50,
         dishName: "Veg. Jhalfrazi",
         price: 190,
         image: "/images/veg-jhalfrazi.png",
@@ -574,7 +574,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 17,
+        id: 51,
         dishName: "Malai Kofta (4 Pcs)",
         price: 222,
         image: "/images/malai-kofta.png",
@@ -582,7 +582,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 18,
+        id: 52,
         dishName: "Tarka",
         price: 137,
         image: "/images/tarka-dal.png",
@@ -590,7 +590,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 19,
+        id: 53,
         dishName: "Dal Fry",
         price: 116,
         image: "/images/dal-fry.png",
@@ -598,7 +598,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 20,
+        id: 54,
         dishName: "Chana Masala",
         price: 137,
         image: "/images/chana-masala.png",
@@ -606,7 +606,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 21,
+        id: 55,
         dishName: "Green Peas Masala",
         price: 148,
         image: "/images/green-peas-masala.png",
@@ -614,7 +614,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 22,
+        id: 56,
         dishName: "Mushroom Masala",
         price: 200,
         image: "/images/mushroom-masala.png",
@@ -622,7 +622,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 23,
+        id: 57,
         dishName: "Matar Mushroom",
         price: 200,
         image: "/images/matar-mushroom.png",
@@ -630,7 +630,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 24,
+        id: 58,
         dishName: "Dal Makhani",
         price: 158,
         image: "/images/dal-makhani.png",
@@ -641,7 +641,7 @@ const Kabab = () => {
 
     BiryaniRice: [
       {
-        id: 1,
+        id: 59,
         dishName: "Dawat-e-Hind Spl. Biryani",
         price: 411,
         image: "/images/dawat-special-biryani.png",
@@ -649,7 +649,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 2,
+        id: 60,
         dishName: "Mutton Biryani",
         price: 317,
         image: "/images/mutton-biryani.png",
@@ -657,7 +657,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 3,
+        id: 61,
         dishName: "Mutton Awadhi Biryani",
         price: 506,
         image: "/images/mutton-awadhi-biryani.png",
@@ -665,7 +665,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 4,
+        id: 62,
         dishName: "Spl. Mutton Biryani (2 Pcs + Egg)",
         price: 506,
         image: "/images/spl-mutton-biryani.png",
@@ -673,7 +673,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 5,
+        id: 63,
         dishName: "Chicken Biryani",
         price: 200,
         image: "/images/chicken-biryani.png",
@@ -681,7 +681,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 6,
+        id: 64,
         dishName: "Spl. Chicken Biryani (2 Pcs + Egg)",
         price: 295,
         image: "/images/spl-chicken-biryani.png",
@@ -689,7 +689,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 7,
+        id: 65,
         dishName: "Biryani Rice",
         price: 137,
         image: "/images/biryani-rice.png",
@@ -697,7 +697,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 8,
+        id: 66,
         dishName: "Egg Biryani (2 Pcs)",
         price: 169,
         image: "/images/egg-biryani.png",
@@ -705,7 +705,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 9,
+        id: 67,
         dishName: "1Kg Mutton Biryani",
         price: 411,
         image: "/images/1kg-mutton-biryani.png",
@@ -713,7 +713,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 10,
+        id: 68,
         dishName: "1Kg Chicken Biryani",
         price: 264,
         image: "/images/1kg-chicken-biryani.png",
@@ -721,7 +721,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 11,
+        id: 69,
         dishName: "Extra Mutton",
         price: 211,
         image: "/images/extra-mutton.png",
@@ -729,7 +729,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 12,
+        id: 70,
         dishName: "Extra Chicken",
         price: 127,
         image: "/images/extra-chicken.png",
@@ -737,7 +737,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 13,
+        id: 71,
         dishName: "Extra Aloo",
         price: 11,
         image: "/images/extra-aloo.png",
@@ -745,7 +745,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 14,
+        id: 72,
         dishName: "Extra Egg",
         price: 21,
         image: "/images/extra-egg.png",
@@ -753,7 +753,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 15,
+        id: 73,
         dishName: "Steam Rice",
         price: 95,
         image: "/images/steam-rice.png",
@@ -761,7 +761,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 16,
+        id: 74,
         dishName: "Jeera Rice",
         price: 148,
         image: "/images/jeera-rice.png",
@@ -769,7 +769,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 17,
+        id: 75,
         dishName: "Peas Pulao",
         price: 148,
         image: "/images/peas-pulao.png",
@@ -777,7 +777,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 18,
+        id: 76,
         dishName: "Mix Veg Pulao",
         price: 169,
         image: "/images/mix-veg-pulao.png",
@@ -788,7 +788,7 @@ const Kabab = () => {
 
     Chinese: [
       {
-        id: 1,
+        id: 77,
         dishName: "Chicken 65 (8 Pcs)",
         price: 274,
         image: "/images/chicken-65.png",
@@ -796,7 +796,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 2,
+        id: 78,
         dishName: "Chicken Chilli (8 Pcs)",
         price: 475,
         image: "/images/chicken-chilli.png",
@@ -804,7 +804,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 3,
+        id: 79,
         dishName: "Chicken Manchurian (8 Pcs)",
         price: 327,
         image: "/images/chicken-manchurian.png",
@@ -812,7 +812,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 4,
+        id: 80,
         dishName: "Chicken Chilli Dry (8 Pcs)",
         price: 327,
         image: "/images/chicken-chilli-dry.png",
@@ -820,7 +820,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 5,
+        id: 81,
         dishName: "Fish 65 (6 Pcs)",
         price: 475,
         image: "/images/fish-65.png",
@@ -828,7 +828,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 6,
+        id: 82,
         dishName: "Crispy Chilli Baby Corn",
         price: 264,
         image: "/images/chilli-baby-corn.png",
@@ -836,7 +836,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 7,
+        id: 83,
         dishName: "Paneer Manchurian",
         price: 306,
         image: "/images/paneer-manchurian.png",
@@ -844,7 +844,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 8,
+        id: 84,
         dishName: "Chilli Prawn",
         price: 315,
         image: "/images/chilli-prawn.png",
@@ -852,7 +852,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 9,
+        id: 85,
         dishName: "Drum Stick",
         price: 306,
         image: "/images/drum-stick.png",
@@ -860,7 +860,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 10,
+        id: 86,
         dishName: "Chicken Chowmein",
         price: 232,
         image: "/images/chicken-chowmein.png",
@@ -868,7 +868,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 11,
+        id: 87,
         dishName: "Mixed Chowmein",
         price: 306,
         image: "/images/mixed-chowmein.png",
@@ -876,7 +876,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 12,
+        id: 88,
         dishName: "Chicken Hakka Noodles",
         price: 369,
         image: "/images/chicken-hakka-noodles.png",
@@ -884,7 +884,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 13,
+        id: 89,
         dishName: "Chicken Fried Rice",
         price: 285,
         image: "/images/chicken-fried-rice.png",
@@ -892,7 +892,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 14,
+        id: 90,
         dishName: "Mixed Fried Rice",
         price: 243,
         image: "/images/mixed-fried-rice.png",
@@ -900,7 +900,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 15,
+        id: 91,
         dishName: "Egg Fried Rice",
         price: 232,
         image: "/images/egg-fried-rice.png",
@@ -908,7 +908,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 16,
+        id: 92,
         dishName: "Veg Fried Rice",
         price: 243,
         image: "/images/veg-fried-rice.png",
@@ -916,7 +916,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 17,
+        id: 93,
         dishName: "Chicken Lollipop",
         price: 306,
         image: "/images/chicken-lollipop.png",
@@ -924,7 +924,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 18,
+        id: 94,
         dishName: "Crispy Chicken",
         price: 295,
         image: "/images/crispy-chicken.png",
@@ -932,7 +932,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 19,
+        id: 95,
         dishName: "Chicken Momo",
         price: 211,
         image: "/images/chicken-momo.png",
@@ -940,7 +940,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 20,
+        id: 96,
         dishName: "Pan Fry Fish",
         price: 317,
         image: "/images/pan-fry-fish.png",
@@ -948,7 +948,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 21,
+        id: 97,
         dishName: "Chicken Clear Soup",
         price: 137,
         image: "/images/chicken-clear-soup.png",
@@ -956,7 +956,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 22,
+        id: 98,
         dishName: "Chicken Pepper Fry",
         price: 290,
         image: "/images/chicken-pepper-fry.png",
@@ -964,7 +964,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 23,
+        id: 99,
         dishName: "Prawn Pepper Salt",
         price: 506,
         image: "/images/prawn-pepper-salt.png",
@@ -972,7 +972,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 24,
+        id: 100,
         dishName: "Chicken Sweet Corn Soup",
         price: 158,
         image: "/images/chicken-sweet-corn-soup.png",
@@ -983,7 +983,7 @@ const Kabab = () => {
 
     ChickeninGravy: [
       {
-        id: 1,
+        id: 101,
         dishName: "Dawat-e-Hind Spl. Chicken (4 Pcs)",
         price: 290,
         image: "/images/dawat-special-chicken.png",
@@ -991,7 +991,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 2,
+        id: 102,
         dishName: "Chicken Chaap (1 Pc)",
         price: 206,
         image: "/images/chicken-chaap.png",
@@ -999,7 +999,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 3,
+        id: 103,
         dishName: "Chicken Rezala (1 Pc)",
         price: 216,
         image: "/images/chicken-rezala.png",
@@ -1007,7 +1007,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 4,
+        id: 104,
         dishName: "Chicken Quorma (2 Pcs)",
         price: 216,
         image: "/images/chicken-quorma.png",
@@ -1015,7 +1015,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 5,
+        id: 105,
         dishName: "Chicken Tandoori Butter Masala (4 Pcs)",
         price: 364,
         image: "/images/chicken-tandoori-butter-masala.png",
@@ -1023,7 +1023,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 6,
+        id: 106,
         dishName: "Chicken Tandoori Butter Masala (2 Pcs)",
         price: 248,
         image: "/images/chicken-tandoori-butter-masala-half.png",
@@ -1031,7 +1031,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 7,
+        id: 107,
         dishName: "Tangri Butter Masala (2 Pcs)",
         price: 290,
         image: "/images/tangri-butter-masala.png",
@@ -1039,7 +1039,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 8,
+        id: 108,
         dishName: "Chicken Tikka Butter Masala (4 Pcs)",
         price: 269,
         image: "/images/chicken-tikka-butter-masala.png",
@@ -1047,7 +1047,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 9,
+        id: 109,
         dishName: "Chicken Reshmi Butter Masala (4 Pcs)",
         price: 290,
         image: "/images/chicken-reshmi-butter-masala.png",
@@ -1055,7 +1055,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 10,
+        id: 110,
         dishName: "Chicken Hariyali Butter Masala (4 Pcs)",
         price: 269,
         image: "/images/chicken-hariyali-butter-masala.png",
@@ -1063,7 +1063,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 11,
+        id: 111,
         dishName: "Chicken Kassa (2 Pcs)",
         price: 227,
         image: "/images/chicken-kassa.png",
@@ -1071,7 +1071,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 12,
+        id: 112,
         dishName: "Chicken Masala (2 Pcs)",
         price: 227,
         image: "/images/chicken-masala.png",
@@ -1079,7 +1079,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 13,
+        id: 113,
         dishName: "Chicken Lahori (6 Pcs)",
         price: 258,
         image: "/images/chicken-lahori.png",
@@ -1087,7 +1087,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 14,
+        id: 114,
         dishName: "Palak Chicken",
         price: 216,
         image: "/images/palak-chicken.png",
@@ -1095,7 +1095,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 15,
+        id: 115,
         dishName: "Chicken Lababdar (6 Pcs)",
         price: 269,
         image: "/images/chicken-lababdar.png",
@@ -1103,7 +1103,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 16,
+        id: 116,
         dishName: "Chicken Kadai (2 Pcs)",
         price: 227,
         image: "/images/chicken-kadai.png",
@@ -1111,7 +1111,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 17,
+        id: 117,
         dishName: "Chicken Handi (4 Pcs)",
         price: 385,
         image: "/images/chicken-handi.png",
@@ -1119,7 +1119,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 18,
+        id: 118,
         dishName: "Chicken Do-Piyaza (4 Pcs)",
         price: 364,
         image: "/images/chicken-do-piyaza.png",
@@ -1127,7 +1127,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 19,
+        id: 119,
         dishName: "Tawa Chicken Boneless (6 Pcs)",
         price: 295,
         image: "/images/tawa-chicken-boneless.png",
@@ -1135,7 +1135,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 20,
+        id: 120,
         dishName: "Dum Chicken with Bone (4 Pcs)",
         price: 243,
         image: "/images/dum-chicken.png",
@@ -1143,7 +1143,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 21,
+        id: 121,
         dishName: "Chicken Rara (2 Pcs)",
         price: 269,
         image: "/images/chicken-rara.png",
@@ -1151,7 +1151,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 22,
+        id: 122,
         dishName: "Chicken Bharta (Shredded)",
         price: 258,
         image: "/images/chicken-bharta.png",
@@ -1159,7 +1159,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 23,
+        id: 123,
         dishName: "Chicken Peshawari (Shredded)",
         price: 258,
         image: "/images/chicken-peshawari.png",
@@ -1167,7 +1167,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 24,
+        id: 124,
         dishName: "Methi Chicken (2 Pcs)",
         price: 269,
         image: "/images/methi-chicken.png",
@@ -1175,7 +1175,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 25,
+        id: 125,
         dishName: "Chicken Keema Masala",
         price: 248,
         image: "/images/chicken-keema-masala.png",
@@ -1183,7 +1183,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 26,
+        id: 126,
         dishName: "Chicken Chana Masala",
         price: 185,
         image: "/images/chicken-chana-masala.png",
@@ -1191,7 +1191,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 27,
+        id: 127,
         dishName: "Chicken Tarka",
         price: 174,
         image: "/images/chicken-tarka.png",
@@ -1199,7 +1199,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 28,
+        id: 128,
         dishName: "Egg Chicken Tarka",
         price: 195,
         image: "/images/egg-chicken-tarka.png",
@@ -1207,7 +1207,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 29,
+        id: 129,
         dishName: "Afghani Butter Masala (Full)",
         price: 359,
         image: "/images/afghani-butter-masala-full.png",
@@ -1215,7 +1215,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 30,
+        id: 130,
         dishName: "Afghani Butter Masala (Half)",
         price: 259,
         image: "/images/afghani-butter-masala-half.png",
@@ -1226,7 +1226,7 @@ const Kabab = () => {
 
     Dessert: [
       {
-        id: 1,
+        id: 131,
         dishName: "Firni",
         price: 69,
         image: "/images/firni.png",
@@ -1234,7 +1234,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 2,
+        id: 132,
         dishName: "Shahi Tukda",
         price: 121,
         image: "/images/shahi-tukda.png",
@@ -1242,7 +1242,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 3,
+        id: 133,
         dishName: "Shahi Kheer",
         price: 60,
         image: "/images/shahi-kheer.png",
@@ -1250,7 +1250,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 4,
+        id: 134,
         dishName: "Gajar Halwa",
         price: 132,
         image: "/images/gajar-halwa.png",
@@ -1258,7 +1258,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 5,
+        id: 135,
         dishName: "Masala Cold Drinks",
         price: 58,
         image: "/images/masala-cold-drink.png",
@@ -1266,7 +1266,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 6,
+        id: 136,
         dishName: "Gulab Jamun (2 Pcs)",
         price: 58,
         image: "/images/gulab-jamun.png",
@@ -1274,7 +1274,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 7,
+        id: 137,
         dishName: "Gulab Jamun With Ice Cream",
         price: 157,
         image: "/images/gulab-jamun-ice-cream.png",
@@ -1282,7 +1282,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 8,
+        id: 138,
         dishName: "Ice Cream (2 Scoop Any Flavour)",
         price: 90,
         image: "/images/ice-cream.png",
@@ -1293,7 +1293,7 @@ const Kabab = () => {
 
     Beverages: [
       {
-        id: 1,
+        id: 139,
         dishName: "Package Water (1/2 Ltr.)",
         price: 10,
         image: "/images/package-water-half.png",
@@ -1301,7 +1301,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 2,
+        id: 140,
         dishName: "Package Water (1 Ltr.)",
         price: 20,
         image: "/images/package-water-1l.png",
@@ -1309,7 +1309,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 3,
+        id: 141,
         dishName: "Container Small",
         price: 5,
         image: "/images/container-small.png",
@@ -1317,7 +1317,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 4,
+        id: 142,
         dishName: "Container",
         price: 11,
         image: "/images/container.png",
@@ -1325,7 +1325,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 5,
+        id: 143,
         dishName: "Cold Drink (200ml)",
         price: 11,
         image: "/images/cold-drink-small.png",
@@ -1333,7 +1333,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 6,
+        id: 144,
         dishName: "Cold Drink (300ml)",
         price: 21,
         image: "/images/cold-drink-medium.png",
@@ -1341,7 +1341,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 7,
+        id: 145,
         dishName: "Cold Drink (500ml)",
         price: 32,
         image: "/images/cold-drink-large.png",
@@ -1349,7 +1349,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 8,
+        id: 146,
         dishName: "Cold Drink (1L)",
         price: 58,
         image: "/images/cold-drink-1l.png",
@@ -1360,7 +1360,7 @@ const Kabab = () => {
 
     MuttoninGravy: [
       {
-        id: 1,
+        id: 147,
         dishName: "Mutton Chaap",
         price: 317,
         image: "/images/mutton-chaap.png",
@@ -1368,7 +1368,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 2,
+        id: 148,
         dishName: "Mutton Kali Mirch (4 Pcs)",
         price: 529,
         image: "/images/mutton-kali-mirch.png",
@@ -1376,7 +1376,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 3,
+        id: 149,
         dishName: "Mutton Stew (2 Pcs)",
         price: 295,
         image: "/images/mutton-stew.png",
@@ -1384,7 +1384,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 4,
+        id: 150,
         dishName: "Mutton Rezala (1 Pc)",
         price: 317,
         image: "/images/mutton-rezala.png",
@@ -1392,7 +1392,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 5,
+        id: 151,
         dishName: "Mutton Pasinda",
         price: 348,
         image: "/images/mutton-pasinda.png",
@@ -1400,7 +1400,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 6,
+        id: 152,
         dishName: "Mutton Quorma (2 Pcs)",
         price: 317,
         image: "/images/mutton-quorma.png",
@@ -1408,7 +1408,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 7,
+        id: 153,
         dishName: "Mutton Kassa (2 Pcs)",
         price: 295,
         image: "/images/mutton-kassa.png",
@@ -1416,7 +1416,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 8,
+        id: 154,
         dishName: "Mutton Masala (2 Pcs)",
         price: 306,
         image: "/images/mutton-masala.png",
@@ -1424,7 +1424,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 9,
+        id: 155,
         dishName: "Mutton Handi (4 Pcs)",
         price: 528,
         image: "/images/mutton-handi.png",
@@ -1432,7 +1432,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 10,
+        id: 156,
         dishName: "Mutton Kadai (2 Pcs)",
         price: 306,
         image: "/images/mutton-kadai.png",
@@ -1440,7 +1440,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 11,
+        id: 157,
         dishName: "Mutton Do-Piyaza (4 Pcs)",
         price: 528,
         image: "/images/mutton-do-piyaza.png",
@@ -1448,7 +1448,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 12,
+        id: 158,
         dishName: "Mutton Rara (2 Pcs)",
         price: 401,
         image: "/images/mutton-rara.png",
@@ -1456,7 +1456,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 13,
+        id: 159,
         dishName: "Mutton Keema Masala",
         price: 306,
         image: "/images/mutton-keema-masala.png",
@@ -1464,7 +1464,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 14,
+        id: 160,
         dishName: "Mutton Tikia",
         price: 179,
         image: "/images/mutton-tikia.png",
@@ -1472,7 +1472,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 15,
+        id: 161,
         dishName: "Mutton Tarka",
         price: 222,
         image: "/images/mutton-tarka.png",
@@ -1480,7 +1480,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 16,
+        id: 162,
         dishName: "Mutton Egg Tarka",
         price: 232,
         image: "/images/mutton-egg-tarka.png",
@@ -1488,7 +1488,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 17,
+        id: 163,
         dishName: "Mutton Keema Chana",
         price: 243,
         image: "/images/mutton-keema-chana.png",
@@ -1496,7 +1496,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 18,
+        id: 164,
         dishName: "Mutton Liver Kassa",
         price: 295,
         image: "/images/mutton-liver-kassa.png",
@@ -1504,7 +1504,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 19,
+        id: 165,
         dishName: "Mutton Paya (1 Pc)",
         price: 158,
         image: "/images/mutton-paya.png",
@@ -1512,7 +1512,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 20,
+        id: 166,
         dishName: "Mutton Kofta (4 Pcs)",
         price: 379,
         image: "/images/mutton-kofta.png",
@@ -1523,7 +1523,7 @@ const Kabab = () => {
 
     Salad: [
       {
-        id: 1,
+        id: 167,
         dishName: "Green Salad",
         price: 53,
         image: "/images/green-salad.png",
@@ -1531,7 +1531,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 2,
+        id: 168,
         dishName: "Onion Salad",
         price: 32,
         image: "/images/onion-salad.png",
@@ -1539,7 +1539,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 3,
+        id: 169,
         dishName: "Ghol",
         price: 32,
         image: "/images/ghol.png",
@@ -1547,7 +1547,7 @@ const Kabab = () => {
         type: "veg",
       },
       {
-        id: 4,
+        id: 170,
         dishName: "Mix Veg. Raita",
         price: 39,
         image: "/images/mix-veg-raita.png",
@@ -1558,7 +1558,7 @@ const Kabab = () => {
 
     FishinGravy: [
       {
-        id: 1,
+        id: 171,
         dishName: "Fish Tikka Butter Masala (2 Pcs)",
         price: 327,
         image: "/images/fish-tikka-butter-masala-half.png",
@@ -1566,7 +1566,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 2,
+        id: 172,
         dishName: "Fish Tikka Butter Masala (4 Pcs)",
         price: 472,
         image: "/images/fish-tikka-butter-masala-full.png",
@@ -1574,7 +1574,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 3,
+        id: 173,
         dishName: "Fish Masala (2 Pcs)",
         price: 306,
         image: "/images/fish-masala-half.png",
@@ -1582,7 +1582,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 4,
+        id: 174,
         dishName: "Fish Masala (4 Pcs)",
         price: 324,
         image: "/images/fish-masala-full.png",
@@ -1590,7 +1590,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 5,
+        id: 175,
         dishName: "Kadai Fish (2 Pcs)",
         price: 306,
         image: "/images/kadai-fish-half.png",
@@ -1598,7 +1598,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 6,
+        id: 176,
         dishName: "Kadai Fish (4 Pcs)",
         price: 324,
         image: "/images/kadai-fish-full.png",
@@ -1606,7 +1606,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 7,
+        id: 177,
         dishName: "Prawn Do-Piyaza (4 Pcs)",
         price: 358,
         image: "/images/prawn-do-piyaza.png",
@@ -1614,7 +1614,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 8,
+        id: 178,
         dishName: "Prawn Masala (4 Pcs)",
         price: 358,
         image: "/images/prawn-masala.png",
@@ -1622,7 +1622,7 @@ const Kabab = () => {
         type: "nonVeg",
       },
       {
-        id: 9,
+        id: 179,
         dishName: "Prawn Tikka Masala (4 Pcs)",
         price: 377,
         image: "/images/prawn-tikka-masala.png",

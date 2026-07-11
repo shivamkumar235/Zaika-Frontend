@@ -37,10 +37,10 @@ const Footer = () => {
 
             <ul className="space-y-3">
               <li>FAQs</li>
-              <li>Refund Policy</li>
-              <li>Privacy Policy</li>
-              <li>Terms & Conditions</li>
-              <li>Contact Support</li>
+              <li className="opacity-50">Refund Policy</li>
+              <li className="opacity-50">Privacy Policy</li>
+              <li className="opacity-50">Terms & Conditions</li>
+              <li className="opacity-50">Contact Support</li>
             </ul>
           </div>
 
@@ -50,11 +50,14 @@ const Footer = () => {
             <h2 className="text-lg font-bold text-white mb-4">Contact</h2>
 
             <div className="space-y-4">
-              <p>📞 +91 98765 43210</p>
+              <div>
+                <p>📞 +91 62013 89057</p>
+                <p>📞 +91 62013 89057</p>
+              </div>
 
               <p>📧 support@zaikafood.in</p>
 
-              <p>📍 Bokaro, Jharkhand</p>
+              <p>📍 Kolkata, Jharkhand</p>
 
               <p>🕒 10:00 AM - 11:00 PM</p>
             </div>
